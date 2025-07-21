@@ -6,6 +6,8 @@ import './index.css'
 function App(){
   return(
     <BrowserRouter>
+      <Navbar />
+      <About/>
 
 
       <nav> //normal href code in html
@@ -16,6 +18,7 @@ function App(){
 
       </Routes>
       </BrowserRouter>
+      
   );
   
   <Footer />
